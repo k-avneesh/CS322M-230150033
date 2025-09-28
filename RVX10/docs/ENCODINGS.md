@@ -45,4 +45,4 @@
 | ROR | `funct7=0000010 rs2=x11(11) rs1=x10(10) funct3=001 rd=x5(5) opcode=0001011` | `0x04b5128b` | `00000100101101010001001010001011` |
 | ABS | `funct7=0000011 rs2=x0(0) rs1=x12(12) funct3=000 rd=x5(5) opcode=0001011` | `0x0606028b` | `00000110000001100000001010001011` |
 
-> Check: All encodings above match the `.word` entries in `tests/rvx10.s` and the machine words in `tests/rvx10.hex`.
+> Check: All encodings above match the machine words in `tests/rvx10.hex`.
