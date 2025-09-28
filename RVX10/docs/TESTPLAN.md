@@ -19,7 +19,7 @@
 | MAXU | rd = max(rs1,rs2) (u) | x10 | x11 | 0x000000F0 | 240 |
 | ROL | rd = rol(rs1, rs2[4:0]) | x10 | x11 | 0x001E0000 | 1966080 |
 | ROR | rd = ror(rs1, rs2[4:0]) | x10 | x11 | 0x07800000 | 125829120 |
-| ABS | rd = |rs1| (s) | x12 | - | 0x00000005 | 5 |
+| ABS | rd = abs(rs1) | x12 | - | 0x00000005 | 5 |
 
 ## Checksum
 - Sum of all rd values (mod 2^32) → `x28 = 0x079E01E3` (127795683)
